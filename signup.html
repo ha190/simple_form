@@ -1,0 +1,44 @@
+<html>
+  <head>
+    <title>SignUp-test</title>
+    <link rel="stylesheet" href="./css/bootstrap.min.css" />
+    <link rel="stylesheet" href="./css/all.min.css" />
+    <link rel="stylesheet" href="./css/style.css" />
+    <link rel="icon" href="./imgs/web-browser.png">
+  </head>
+  <body>
+    <div id="form" class="w-50 py-5 mx-auto my-5">
+      <h1 class="text-capitalize fw-bolder text-center">smart login system</h1>
+      <div class="p-5">
+        <input
+          type="text"
+          placeholder="Enter Your Name"
+          class="form-control my-3"
+          id="name"
+        />
+        <input
+          type="text"
+          placeholder="Enter Your Email"
+          class="form-control my-3"
+          id="email"
+        />
+        <input
+          type="password"
+          placeholder="Enter Your Password"
+          class="form-control"
+          id="password"
+        />
+        <div class="d-flex justify-content-center align-items-center">
+        <span id="alerting"class="text-center text-danger fw-light py-2 d-none">All inputs is required</span>
+        <span id="exists"class="text-center text-danger fw-light py-2 d-none">Email already EXISTS</span>
+        <span id="success" class="text-center text-success fw-light py-2 d-none">Success</span>
+      </div>
+        <button type="button" class="btn btn-outline-info w-100 my-3" id="signup">Sign Up</button>
+      <p class="text-center text-white ">Have an account? <span><a href="index.html"class="text-white">Sign In</a></span></p>
+      </div>
+      
+    </div>
+    <script src="./js/signUp.js"></script>
+    <script src="./js/bootstrap.bundle.min.js"></script>
+  </body>
+</html>
